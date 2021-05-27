@@ -1,0 +1,14 @@
+<template>
+  <button click.delegate="loadData()">Load data</button>
+  <ul>
+    <li repeat.for="agency of agencies">
+      ${agency.name} - ${agency.type}
+      <ul>
+        <li repeat.for="step of agency.steps">
+          <span>${step.name} - ${step.description || "'empty'"}</span><br />
+          <span>${step.processing} - ${step.status || "'empty'"}</span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</template>

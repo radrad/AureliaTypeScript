@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Agency 1",
+    "type": "Restaurant",
+    "steps": [{ "name": "One", "description": "" }]
+  },
+  {
+    "name": "Agency 2",
+    "type": "Gas Station",
+    "steps": [{ "name": "Two", "description": "" }]
+  }
+]
